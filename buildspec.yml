@@ -3,14 +3,15 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Installing Mocha...
-      - npm install --save-dev gulp-awspublish
+      - echo Installing 
+      - apt-get install npm
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
-      - npm install --save-dev gulp-awspublish
-  build:
-    commands:
+      - npm install gulp
+ build:
+      
+ commands:
       - echo Build started on `date`
       - echo Compiling the Node.js code
       - gulp serve
