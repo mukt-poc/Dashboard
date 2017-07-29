@@ -2,6 +2,7 @@
 
 var gulp = require('gulp');
 var wrench = require('wrench');
+var awspublish = require('gulp-awspublish');
 
 /**
  *  This will load all js or coffee files in the gulp directory
